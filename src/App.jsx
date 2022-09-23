@@ -7,6 +7,8 @@ import Contact from "./Contact";
 import Blog from "./Blog";
 import Services from "./Services";
 import { Button } from "react-bootstrap";
+import CarouselFadeExample from "./CarouselFadeExample";
+import TextExample from "./TextExample";
 
 
 
@@ -44,6 +46,8 @@ const avtarcard = avtarlist.map( (akash,i) =>{
   return ( 
   <>
   <Home />
+  <CarouselFadeExample />
+  <TextExample />
   {/* <Button variant="success">Testhell</Button> */}
   </>
   );

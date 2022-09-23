@@ -29,14 +29,13 @@ function ColorSchemesExample() {
       <Navbar bg="primary" variant="dark">
         <Container>
           <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            {
+          <Nav className=''>
+          {
             menu.map((navitem,i) => {
               return <Nav.Link key={i} href={navitem.add}>{navitem.name}</Nav.Link>;
             })
             }
           </Nav>
-
         </Container>
       </Navbar>
 
