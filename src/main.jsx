@@ -7,5 +7,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
+    <>
+    <h1>hell</h1>
+    </>
   </React.StrictMode>
 )

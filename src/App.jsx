@@ -2,11 +2,6 @@ import React from "react";
 import "tachyons";
 import Home from "./Home";
 import "./App.css";
-import About from "./About";
-import Contact from "./Contact";
-import Blog from "./Blog";
-import Services from "./Services";
-import { Button } from "react-bootstrap";
 import CarouselFadeExample from "./CarouselFadeExample";
 import TextExample from "./TextExample";
 
@@ -48,7 +43,6 @@ const avtarcard = avtarlist.map( (akash,i) =>{
   <Home />
   <CarouselFadeExample />
   <TextExample />
-  {/* <Button variant="success">Testhell</Button> */}
   </>
   );
 };
