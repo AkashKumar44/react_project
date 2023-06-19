@@ -1,15 +1,20 @@
 
 import React from "react"
 import './App.css';
+import Banner from './Banner';
 import Navbar from './Navbar';
 
-  export const App = ( ) =>{
+  function App(){
 
     return( 
+      <>
       <Navbar />
-     
-     
-  )};
+      <Banner />     
+         
+      </>
+      
+  );}
 
 
 export default App;
+                                 
