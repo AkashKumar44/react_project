@@ -8,6 +8,8 @@ const Banner = () => {
 
         return (
             <Carousel>
+
+              
               <Carousel.Item>
                 <img className="d-block w-100" src={img} height={200} alt="First slide" />
                 <Carousel.Caption>
