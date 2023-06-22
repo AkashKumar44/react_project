@@ -10,8 +10,11 @@ function Navbar() {
         <div className=' bg-dark'>
         <Nav className='container' activeKey="/home" onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}  >
                 <div className=''>
+                    
                     <img src={logo} alt='logo' height={50} />
                 </div>
+
+
                 <div  className="justify-content-end">
                     <Nav className="justify-content-end">
                         <Nav.Item>
