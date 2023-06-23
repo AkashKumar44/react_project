@@ -11,13 +11,9 @@ import Services from './services/card';
     return( 
       <>
       <Navbar />
-      
       <Banner />
       <Services />
       <Card />
-
-
-         
       </>
       
   );}
