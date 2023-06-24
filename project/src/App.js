@@ -3,8 +3,7 @@ import React from "react"
 import './App.css';
 import Banner from './Banner';
 import Navbar from './Navbar';
-import Services from './services/Services';
-import Services from './services/card';
+import Services from './Services/Services';
 
   function App(){
 
@@ -13,7 +12,6 @@ import Services from './services/card';
       <Navbar />
       <Banner />
       <Services />
-      <Card />
       </>
       
   );}
