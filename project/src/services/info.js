@@ -7,6 +7,7 @@ const Add = [
             title: "welcome to india",
             description: 'A free landing page template built FT Collection website landing page with React JS.'
         },
+        
         {
             id: 2,
             image: "../logo192.png",
@@ -14,6 +15,7 @@ const Add = [
             title: "welcome to goa",
             description: 'A free landing page template built FT Collection website landing page with React JS.'
         },
+
         {
             id: 3,
             image: "../logo192.png",
@@ -21,6 +23,7 @@ const Add = [
             title: "welcome to delhi",
             description: 'A free landing page template built FT Collection website landing page with React JS.'
         },
+
         {
             id: 4,
             image: "../logo192.png",
