@@ -8,9 +8,8 @@ function Navbar() {
     return (
         <>
         <div className=' bg-dark'>
-        <Nav className='container' activeKey="/home" onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}  >
+            <Nav className='container' activeKey="/home" onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}  >
                 <div >
-                    
                     <img src={logo} alt='logo' height={50} />
                 </div>
                 <div  className="justify-content-end">
