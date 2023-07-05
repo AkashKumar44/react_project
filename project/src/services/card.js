@@ -1,7 +1,8 @@
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 
-function GroupExample() {
+function GroupExample() 
+{
   return (
     <CardGroup>
       <Card>
