@@ -1,12 +1,13 @@
 import React from 'react'
+import ReactDOM from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import Nav from 'react-bootstrap/Nav';
 import img from './logo192.png';
 
 
-const Banner = () => {
 
+const Banner = () => {
     return (
+      <>
         <Carousel> 
           <Carousel.Item>
             <img className="d-block w-100" src={img} height={200} alt="First slide" />
@@ -16,7 +17,12 @@ const Banner = () => {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
+        
+        
+       
+       </>
     );
 }
 
-export default Banner
+
+export default Banner;
