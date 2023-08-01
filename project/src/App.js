@@ -11,7 +11,6 @@ import Services from 'Services/Card.js';
       <>
       <Navbar />
       <Banner />
-      {/* <Services /> */}
       </>
       
   );}
