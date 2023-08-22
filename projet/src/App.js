@@ -1,13 +1,14 @@
 // App.js
 import React from 'react';
-import Navbar from './Navbar';
-import './App.css'; // You can style App layout here
+import './App.css';
+import Card from './component/Card'; // Import the Card component
+// import Sdata from './component/Sdata';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      {/* Other content */}
+      <Card />
+      {/* <Sdata />  */}
     </div>
   );
 }
