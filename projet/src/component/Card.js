@@ -8,6 +8,7 @@ import './Card.css'; // Import your CSS file
 const Card = (props) => {
   return (
     <div className='container cardimg'>
+      <h1>Test card create</h1>
         <div className="card">
             <img src={props.imgsrc} alt="hell" />
             <h2>{props.heading}</h2>
@@ -27,6 +28,7 @@ ReactDom.render(
         title="Welcome to error.Welcome to error.Welcome to error.Welcome to error."
         btn="Read More"
         />
+        
         
 
     </>
