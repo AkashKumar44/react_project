@@ -10,6 +10,8 @@ const Card = (props) => {
     <div className='container cardimg'>
       <h1>Test card create</h1>
         <div className="card">
+
+          
             <img src={props.imgsrc} alt="hell" />
             <h2>{props.heading}</h2>
             <p>{props.title}</p>
