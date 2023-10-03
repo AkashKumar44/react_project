@@ -1,6 +1,10 @@
 // Card.js
 import React from 'react';
 import ReactDom from 'react-dom';
+import Button from 'react-bootstrap/Button';
+
+// or less ideally
+// import { Button } from 'react-bootstrap';
 
 import './Card.css'; // Import your CSS file
 
@@ -9,13 +13,20 @@ const Card = (props) => {
   return (
     <div className='container cardimg'>
       <h1>Test card create</h1>
+      <div>
+        <Button variant="primary" size="sm">
+          Small button
+        </Button>{' '}
+        <Button variant="secondary" size="sm">
+          Small button
+        </Button>
+      </div>
         <div className="card">
-
-          
             <img src={props.imgsrc} alt="hell" />
             <h2>{props.heading}</h2>
             <p>{props.title}</p>
             <a href='#' className='btn'>{props.btn}</a>
+   
         </div>
     </div>
     
