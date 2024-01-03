@@ -13,20 +13,12 @@ const Card = (props) => {
   return (
     <div className='container cardimg'>
       <h1>Test card create</h1>
-      <div>
-        <Button variant="primary" size="sm">
-          Small button
-        </Button>{' '}
-        <Button variant="secondary" size="sm">
-          Small button
-        </Button>
-      </div>
+     
         <div className="card">
             <img src={props.imgsrc} alt="hell" />
             <h2>{props.heading}</h2>
             <p>{props.title}</p>
             <a href='#' className='btn'>{props.btn}</a>
-   
         </div>
     </div>
     
